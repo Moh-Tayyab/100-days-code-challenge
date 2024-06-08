@@ -8,7 +8,7 @@ to handle multiple inputs gracefully.
 */
 
 // Defines a function that accepts multiple hobbies as arguments
-function logHobbies(...hobbies: string[]) {
+function hobbies(...hobbies: string[]) {
 // Loops through each hobby in array
     hobbies.forEach(hobby => {
         
@@ -18,4 +18,4 @@ function logHobbies(...hobbies: string[]) {
     });
 }
 //call function with passing three hobbies
-logHobbies('coding', 'palying', 'sleeping');
+hobbies('coding', 'palying', 'sleeping');

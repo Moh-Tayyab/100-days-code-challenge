@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 49: Function with Rest Parameters: Write a function that takes a rest parameter representing multiple hobbies.
 It should log each hobby with a statement saying you enjoy that hobby.
@@ -6,15 +7,11 @@ Explain & TIP: Rest parameters allow a function to accept an indefinite number o
 to handle multiple inputs gracefully.
 */
 // Defines a function that accepts multiple hobbies as arguments
-function logHobbies() {
-    var hobbies = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        hobbies[_i] = arguments[_i];
-    }
+function logHobbies(...hobbies) {
     // Loops through each hobby in array
-    hobbies.forEach(function (hobby) {
+    hobbies.forEach(hobby => {
         // Logs a statement for each hobby
-        console.log("I enjoy ".concat(hobby, "."));
+        console.log(`I enjoy ${hobby}.`);
     });
 }
 //call function with passing three hobbies

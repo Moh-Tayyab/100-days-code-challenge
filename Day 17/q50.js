@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 Question 50: Multiline Template Literals: Use template literals to create a multiline string that describes your ideal day.
@@ -7,6 +8,9 @@ Explain & TIP: Template literals support multiline strings, making it easier to 
 variables and expressions.
 */
 // Using template literals to define a multiline string
-var multilineTemplate = "My ideal day would involve:\n1. Waking up early and going for a jog.\n2. Spending a few hours coding on a personal project.\n3. Ending the day by reading a good book.";
+let multilineTemplate = `My ideal day would involve:
+1. Waking up early and going for a jog.
+2. Spending a few hours coding on a personal project.
+3. Ending the day by reading a good book.`;
 // Logging the multiline string to the console
 console.log(multilineTemplate);

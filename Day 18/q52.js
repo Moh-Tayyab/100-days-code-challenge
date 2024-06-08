@@ -1,3 +1,4 @@
+"use strict";
 /*
 
 Question 52: Make a Smartphone Object: Create a simple way to keep track of a smartphone's details.
@@ -6,7 +7,7 @@ Include its brand, model, and other key features like how much storage it has, t
 Explain & TIP: Just like a box can contain smaller boxes, objects can contain other objects.
 This helps organize related information neatly.
 */
-var smartPhone = {
+let smartPhone = {
     brand: 'Samsung',
     model: 'A32',
     specs: {

@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 51: Refactoring to Arrow Functions: Take a simple function that calculates the area of a rectangle and refactor
 it into an arrow function.
@@ -12,6 +13,6 @@ function calculateArea(width, height) {
 calculateArea(4, 6);
 // Arrow function for calculating the area of a rectangle
 // Refactored into an arrow function
-var calculateAreaArrrow = function (width, height) { return width * height; };
+let calculateAreaArrrow = (width, height) => width * height;
 //Arrow function
 console.log(calculateAreaArrrow(5, 7)); // logs

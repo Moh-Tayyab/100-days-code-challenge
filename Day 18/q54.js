@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 54: Making Flexible Object Keys: Learn how to set up a list where you can change the name of each section
 based on what you need at that moment, like adjusting labels based on user choices.
@@ -7,11 +8,11 @@ list based on new information.
 */
 //A way to make a flexible object
 function createObject(key, value) {
-    var dynamicObject = {};
+    let dynamicObject = {};
     // Setting up a section in the list with a changeable name
     dynamicObject[key] = value;
     return dynamicObject;
 }
 // Using the flexible list setup for a user's preference
-var userPerference = createObject("them", "dark");
+let userPerference = createObject("them", "dark");
 console.log(userPerference);

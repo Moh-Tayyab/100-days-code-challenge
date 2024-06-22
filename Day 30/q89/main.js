@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 89: Converting Strings to Numbers: Create a function that takes a string representing a number (like "123")
 and converts it into an actual number type.
@@ -17,5 +18,5 @@ console.log(convertStringToNumber("82")); // Outputs: 82
 function stringToNumber(str) {
     return parseFloat(str);
 }
-var response = stringToNumber("21");
+let response = stringToNumber("21");
 console.log(response);

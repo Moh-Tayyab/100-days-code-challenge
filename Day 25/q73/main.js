@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 73: Assigning and Updating Variables: Create a function where you declare a variable using let and assign an initial value.
  Then, update its value within the same function and log both the initial and updated values.
@@ -7,7 +8,7 @@ for keeping track of changing data within your programs.
 */
 // This function shows how to assign and update variable values
 function updateVariable() {
-    var number = 7; // Initially assigns the value 10
+    let number = 7; // Initially assigns the value 10
     console.log("Initial value:", number); // Logs the initial value
     number = 16; // Updates the value to 20
     console.log("Updated value:", number); // Logs the updated value
@@ -16,7 +17,7 @@ updateVariable();
 // We assign a value to a variable and then update it, showing how values can change.
 //more example
 function updateValue() {
-    var num = 5;
+    let num = 5;
     console.log("Initial Value: ", num);
     num = 15;
     console.log("Update Value: ", num);

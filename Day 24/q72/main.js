@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 72: Block Scope with let and const: Demonstrate block scope by creating a code block with {} that uses both let and const.
 Show how variables declared inside the block are not accessible outside of it.
@@ -7,8 +8,8 @@ organization and preventing accidental access from outside the block.
 */
 // Demonstrating block scope
 {
-    var blockLet = "visible inside the block";
-    var blockConst = "also only inside the block";
+    let blockLet = "visible inside the block";
+    const blockConst = "also only inside the block";
     console.log(blockLet); // Works fine here
     console.log(blockConst); // Also works fine here
 }
@@ -26,8 +27,8 @@ catch (error) {
 }
 // This shows that `let` and `const` keep variables safe inside the block where they're defined.
 // example
-var mesageLet = "Hey, How are you?";
-var mesageConst = "Fine. What about you?";
+let mesageLet = "Hey, How are you?";
+const mesageConst = "Fine. What about you?";
 console.log(mesageLet);
 console.log(mesageConst);
 try {

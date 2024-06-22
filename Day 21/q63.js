@@ -1,8 +1,9 @@
-var circle = {
+"use strict";
+let circle = {
     kind: "circle",
     radius: 23
 };
-var rectangle = {
+let rectangle = {
     kind: "rectangle",
     radius: 11,
     width: 12,
@@ -10,20 +11,20 @@ var rectangle = {
 };
 console.log(circle);
 console.log(rectangle);
-var samsung = {
+let samsung = {
     company: "Samsung",
     price: 1000,
     color: "Black",
     model: "S21",
     isProved: true
 };
-var vivo = {
+let vivo = {
     company: "Vivo",
     color: "White",
     model: "s100",
     isProved: true
 };
-var infinix = {
+let infinix = {
     company: "Infinix",
     price: 5000,
     color: "Black",

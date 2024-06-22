@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 81: Iterating Over Object Properties: Write a function that takes an object as an argument and
 logs all of its properties and values.
@@ -7,9 +8,9 @@ for when you need to examine or display all the information an object holds.
 */
 // This function shows every detail about an object
 function objectProperties(obj) {
-    for (var property in obj) {
+    for (let property in obj) {
         // Loops through each property in the object
-        console.log("".concat(property, ": ").concat(obj[property]));
+        console.log(`${property}: ${obj[property]}`);
         // Shows the property name and its value
     }
 }

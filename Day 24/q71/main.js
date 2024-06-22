@@ -1,3 +1,4 @@
+"use strict";
 /*Question 71: Compare let and const: Create two examples where let allows reassignment but const does not.
 Try to reassign a const-declared variable and catch the error.
 
@@ -6,16 +7,16 @@ should not change once set. Using const helps make your code safer and more pred
 
 */
 // example
-var a = "tayyab";
+let a = "tayyab";
 a = "zain"; //let allow to reassigned
-var b = 5;
+const b = 5;
 b = 7; // not allow to reassigned
 // Using `let` for a variable that can be reassigned
-var age = 25;
+let age = 25;
 age = 26; // Works fine because `let` allows reassignment
 console.log(age); // Shows 26
 // Trying to reassign a `const`-declared variable
-var nam = "Alice";
+const nam = "Alice";
 try {
     nam = "Bob"; // This line will cause an error
 }

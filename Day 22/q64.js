@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 64: Combine Strings and Numbers: Write a function that merges a piece of text with a number. For example,
 if provided with "Age: " and 30, it should give back "Age: 30".
@@ -13,4 +14,4 @@ console.log(combineStringAndNumber("Age: ", 21));
 function stringAndNumber(message, age) {
     return message + age;
 }
-console.log(stringAndNumber("Your favourite no is ", 10.));
+console.log(stringAndNumber("Your favourite no is ", 10));

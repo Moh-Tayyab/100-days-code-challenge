@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 75: Compound Assignment Operators: Use compound assignment operators to simplify arithmetic operations.
 Start with x = 4 and perform a series of operations (addition, subtraction, multiplication, division) on x using compound operators.
@@ -7,7 +8,7 @@ Instead of writing x = x + 2, you can simply write x += 2.
 */
 // This function uses compound assignment operators for different operations
 function useCompoundOperators() {
-    var x = 4; // Starts with x equal to 4
+    let x = 4; // Starts with x equal to 4
     console.log("Initial x:", x);
     x += 2; // Adds 2 to x
     console.log("After addition:", x); // Shows x after addition
@@ -22,7 +23,7 @@ useCompoundOperators();
 // We simplify arithmetic operations on x using compound assignment operators, like a shortcut.
 //more example
 function usingOperator() {
-    var y = 6;
+    let y = 6;
     console.log("Initial y: ", y);
     y += 2;
     console.log("After Addition: ", y);

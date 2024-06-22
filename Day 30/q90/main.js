@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 90: Checking if a Value is NaN: Demonstrate how to check if a variable's
 value is NaN (Not a Number) and return a boolean result.
@@ -10,6 +11,6 @@ function isValueNaN(value) {
     return isNaN(value); // Checks and returns true if the value is NaN, false otherwise
 }
 // Examples: Checking different values
-console.log(isValueNaN("hello wold")); // Outputs: true, because "hello world" isn't a number
+console.log(isValueNaN("hello world")); // Outputs: true, because "hello world" isn't a number
 console.log(isValueNaN(123)); // Outputs: false, because 123 is a number
 // This way, we can guard against unexpected non-numeric values in our calculations or inputs.

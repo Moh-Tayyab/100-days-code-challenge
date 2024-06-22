@@ -1,3 +1,4 @@
+"use strict";
 /*
 Question 84: Replacing Text in a String: Write a function that takes a sentence and replaces all instances
 of the word "JavaScript" with "TypeScript".
@@ -14,3 +15,9 @@ function replaceJavaScriptWithTypeScript(sentence) {
 console.log(replaceJavaScriptWithTypeScript("I love JavaScript and JavaScript is awesome!"));
 // Outputs: "I love TypeScript and TypeScript is awesome!"
 // Every "JavaScript" in the sentence is changed to "TypeScript".
+//more example
+function replaceMethod(msg) {
+    return msg.replace(/typescript/g, "Python");
+}
+let reponse = replaceMethod("I love typescript and typescript is awesome!");
+console.log(reponse);

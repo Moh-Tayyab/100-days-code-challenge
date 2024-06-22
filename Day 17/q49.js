@@ -7,7 +7,7 @@ Explain & TIP: Rest parameters allow a function to accept an indefinite number o
 to handle multiple inputs gracefully.
 */
 // Defines a function that accepts multiple hobbies as arguments
-function logHobbies(...hobbies) {
+function hobbies(...hobbies) {
     // Loops through each hobby in array
     hobbies.forEach(hobby => {
         // Logs a statement for each hobby
@@ -15,4 +15,4 @@ function logHobbies(...hobbies) {
     });
 }
 //call function with passing three hobbies
-logHobbies('coding', 'palying', 'sleeping');
+hobbies('coding', 'palying', 'sleeping');

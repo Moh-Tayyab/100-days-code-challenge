@@ -9,9 +9,9 @@ the square root of any positive number, directly providing the result you need.
 const squareRoot: number = Math.sqrt(64);
 
 console.log(squareRoot); // Outputs: 8
-// This line effectively calculates and shows the square root of 144.
+// This line effectively calculates and shows the square root of 64.
 
 
-let squareRot: number = Math.sqrt(25) 
+//let squareRot: number = Math.sqrt(25) 
 
-console.log(squareRot);
+//console.log(squareRot);

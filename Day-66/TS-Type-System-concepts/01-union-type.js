@@ -1,7 +1,8 @@
+"use strict";
 /***************
  * UNION TYPES *
  ***************/
-var myVar;
+let myVar;
 myVar = 10;
 console.log(myVar);
 myVar = "Hello World";

@@ -12,8 +12,13 @@ function getRandomInt() {
 console.log(getRandomInt()); // Outputs a random integer between 1 and 10
 // This function combines Math.random() with Math.floor() to create a random integer within our range.
 //more example
+/*
 function generateRandomNumber() {
-    let response = Math.ceil(Math.random() * 5) + 1;
-    console.log(response);
+let response = Math.floor(Math.random() * 5) + 1 ;
+console.log(response);
+  
 }
-generateRandomNumber();
+
+generateRandomNumber()
+
+*/ 

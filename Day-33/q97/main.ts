@@ -18,7 +18,7 @@ console.log(getCurrentDateFormatted()); // Outputs the current date in DD-MM-YYY
 // Shows today's date, neatly formatted.
 
 //more example
-
+/*
 function currentDate(): string {
     let now = new Date();
     let day = String(now.getDate()).padStart(2, "0");
@@ -30,3 +30,4 @@ function currentDate(): string {
 }
 
 console.log(currentDate());
+*/

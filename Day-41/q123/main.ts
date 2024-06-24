@@ -12,11 +12,11 @@ for(const char of str) {
         console.log(`First vowel found: ${char}`);
         break;
     }
-    console.log(char);
-    
+    console.log(char);   
 }
 
 }
 
-untilVowels("uyzygy")
-untilVowels("styl")
+untilVowels("uyzygy");
+untilVowels("styl");
+

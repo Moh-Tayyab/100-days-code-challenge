@@ -11,3 +11,4 @@ const lengthRectAngle = 5;
 const widthOfRectAngle = 3;
 const area = calculateRectangleArea(lengthRectAngle, widthOfRectAngle);
 console.log(`The area of the rectangle is: ${area}`);
+console.log("tayyab");

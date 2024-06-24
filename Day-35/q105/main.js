@@ -12,7 +12,7 @@ function rollDice() {
 console.log(rollDice()); // Outputs a random number between 1 and 6
 // Here, we mimic the action of rolling a dice and getting a result.
 //more example
-function randomInteger() {
-    return Math.floor(Math.random() * 15) + 1;
-}
+//function randomInteger():number {
+//  return Math.floor(Math.random()* 15) + 1;
+//}
 //console.log(randomInteger());

@@ -5,7 +5,7 @@ Remember, hours are in 24-hour format, so 12 PM is 12.
 */
 
 const currentTim = new Date();
-if(currentTim.getHours() > 12) {
+if(currentTim.getHours() < 12) {
     console.log("Good Morning");  // It's morning if before 12 PM
     
 }

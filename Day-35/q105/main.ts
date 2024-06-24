@@ -15,9 +15,9 @@ console.log(rollDice()); // Outputs a random number between 1 and 6
 
 //more example
 
-function randomInteger():number {
+//function randomInteger():number {
 
-    return Math.floor(Math.random()* 15) + 1;
-}
+  //  return Math.floor(Math.random()* 15) + 1;
+//}
 
 //console.log(randomInteger());

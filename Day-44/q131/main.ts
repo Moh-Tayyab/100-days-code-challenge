@@ -8,5 +8,5 @@ import { Person } from "./person";
 
 
 const alice = new Person("Muhammad");
-alice.greet(); // Outputs: Hello, my name is Alice
+alice.greet(); // Outputs: Hello, my name is Muhammad
 // This snippet imports the Person class and uses it to create an instance.
